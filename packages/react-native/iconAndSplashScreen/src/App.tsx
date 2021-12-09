@@ -62,12 +62,20 @@ const App = () => {
     backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
   };
 
+  const statusBarPadding = {
+    paddingTop: StatusBar.currentHeight,
+  };
+
   return (
     <SafeAreaView style={backgroundStyle}>
-      <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
+      <StatusBar
+        barStyle={isDarkMode ? 'light-content' : 'dark-content'}
+        backgroundColor={'transparent'}
+        translucent
+      />
       <ScrollView
         contentInsetAdjustmentBehavior="automatic"
-        style={backgroundStyle}>
+        style={statusBarPadding}>
         <Header />
         <View
           style={{
