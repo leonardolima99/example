@@ -1,7 +1,7 @@
 {
   "name": "example",
   "version": "1.0.0",
-  "description": "Projeto criado com objetivo de salvar os exemplos de usos de bibliotecas durante meus estudos com React Native.",
+  "description": "Projeto criado com objetivo de salvar os exemplos de usos de bibliotecas durante meus estudos em desenvolvimento.",
   "main": "index.js",
   "private": true,
   "workspaces": {
