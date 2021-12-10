@@ -1,10 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
-  <item android:drawable="@color/blue" />
+
   <item
-    android:drawable="@mipmap/logo"
-    android:height="200dp"
-    android:width="200dp"
-    android:gravity="center"
-  />
+      android:drawable="@color/blue"
+      >
+
+  </item>
+  <item
+      android:top="100dp">
+    <bitmap
+        android:src="@drawable/logo"
+        android:gravity="top"
+        />
+
+  </item>
+  <item
+      android:top="310dp">
+    <bitmap
+
+        android:src="@drawable/text1"
+        android:gravity="top"
+        />
+
+  </item>
+  <item
+      android:top="760dp">
+    <bitmap
+
+        android:src="@drawable/text2"
+        android:gravity="top"
+        />
+
+  </item>
+  
 </layer-list>
